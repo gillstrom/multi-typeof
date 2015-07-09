@@ -1,0 +1,32 @@
+{
+  "name": "multi-typeof",
+  "version": "0.0.0",
+  "description": "Check something against an array of types.",
+  "license": "MIT",
+  "repository": "gillstrom/multi-typeof",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "check",
+    "multi",
+    "multiple",
+    "test",
+    "type",
+    "typeof"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
