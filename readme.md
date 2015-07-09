@@ -34,7 +34,7 @@ Value to test.
 
 #### types
 
-*Required*
+*Required*  
 Type: `array`
 
 Types to check against.
