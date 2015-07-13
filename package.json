@@ -1,6 +1,6 @@
 {
   "name": "multi-typeof",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check something against an array of types.",
   "license": "MIT",
   "repository": "gillstrom/multi-typeof",
