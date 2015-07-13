@@ -11,7 +11,8 @@ it('Should return true if the input is one of the types', function () {
 });
 
 
-it('Should return true if the input is not one of the types', function () {
+it('Should return false if the input is not one of the types', function () {
 	assert.strictEqual(multiTypeof({foo: 'bar'}, ['string', 'array']), false);
 	assert.strictEqual(multiTypeof(true, ['string', 'object']), false);
+	assert.strictEqual(multiTypeof(['foo'], ['object']), false);
 });

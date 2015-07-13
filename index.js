@@ -5,8 +5,12 @@ module.exports = function (input, types) {
 	}
 
 	for (var i = 0; i < types.length; i++) {
-		if (types[i] === 'array' && Array.isArray(input)) {
-			return true;
+		if (Array.isArray(input)) {
+			if (types[i] === 'array') {
+				return true;
+			}
+
+			continue;
 		}
 
 		if (typeof input === types[i]) {
